@@ -1,3 +1,29 @@
 .cs{
-    color: rgb(196, 133, 133);
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.cs-list{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+
+}
+.cs-list li{
+    width: 50%;
+    background-color: #fff;
+    padding: 40px 56px;
+}
+.faq{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.faq h3{
+    font-size: 30px;
+    color: black;
+}
+.faq p{
+font-size: 15px;
+
 }
