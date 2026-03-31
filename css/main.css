@@ -9,6 +9,7 @@
 @import url("cs.css");
 @import url("about.css");
 @import url("footer.css");
+@import url("modal.css");
 /* css초기화 */
 * {
   padding: 0;
@@ -22,6 +23,9 @@ li {
 a {
   text-decoration: none;
   color: #333;
+}
+html{
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Noto Sans KR", sans-serif;
